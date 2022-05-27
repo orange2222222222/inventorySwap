@@ -1,0 +1,15 @@
+name: InventorySwap
+version: '${project.version}'
+main: orangeyum.game.inventoryswap.Main
+api-version: 1.18
+authors: [ orangeyum ]
+commands:
+  startswap:
+    description: starts the swapping
+    usage: /startswap
+  swapnow:
+    description: swaps inventory now!
+    usage: /swapnow
+  stopswap:
+    description: stops the swapping
+    usage: /stopswap
